@@ -23,6 +23,7 @@ functions:
       - http:
           path: /graphql
           method: POST
+          cors: true
 
 resources:
   Resources:
