@@ -3,9 +3,9 @@ package schema
 import "github.com/graphql-go/graphql"
 
 type User struct {
-	id       string `json:"id"`
-	login    string `json:"login"`
-	password string `json:"password"`
+	Id       string `json:"id"`
+	Login    string `json:"login"`
+	Password string `json:"password"`
 }
 
 var graphQLUserType = graphql.NewObject(graphql.ObjectConfig{
